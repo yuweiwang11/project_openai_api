@@ -4,7 +4,7 @@ dotenv.config();
 
 const openaiApiKey = process.env.OPENAI_API_KEY
 
-if (!OpenaiApiKey){
+if (!openaiApiKey){
   console.error("OPENAI_API_KEY is not set")
   process.exit(1)
 }
